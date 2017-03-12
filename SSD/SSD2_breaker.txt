@@ -1,0 +1,8 @@
+if (typeof(cwsObj) != "undefined") {
+	cwsObj.getCourseCompleted=function(){return true};
+	cwsObj.user.courseScore=100;
+	cwsObj.session.finished();
+}
+else {
+	this.location=curTemplate+'.html?passingPage='+totalPages;
+}
