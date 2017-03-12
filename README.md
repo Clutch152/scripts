@@ -2,11 +2,11 @@
 <h1>Collection of scripts for the lazy ... >.></h1>
 
 
-The scripts/codes included above all can be used with the internet explorer debugger. To use the debugger follow these steps.</br></br>
+The scripts/codes included above all can be used with the Internet Explorer Developer Tools. To use the developer tools follow these steps:</br></br>
 <ol>
-  <li>Open your class in internet explorer.</li>
-  <li>Press the F12 key when your class is fully loaded. This will open the debugger.</li>
-  <li>Click on the Console tab of the debugger.</li>
+  <li>Open your class in Internet Explorer.</li>
+  <li>Press the F12 key when your class is fully loaded. This will open the developer tools.</li>
+  <li>Click on the Console tab of the developer tools window.</li>
   <li>Paste the code in the text box at the bottom of the console tab.</li>
   <ol>
     <li>If the code is one line then you can simply press the ENTER key.</li>
