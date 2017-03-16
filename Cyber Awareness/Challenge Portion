@@ -1,11 +1,12 @@
 ///////////INSTRUCTIONS!!!
-// Copy the following code once you have the cyber awareness challeneg opened and on the main Task list section.
+// Once you have the Cyber Awareness Challenge open and on the Task List section ...
+// Press the F12 key to open up the Developer tools for Internet Explorer.
+////Find and click on the CONSOLE tab and select it.
+// Copy the following line of code and paste it into the textbox at the bottom of the console tab.
 // The page will reload and everything will be "completed". The score really doesn't matter so long as there is no RED score.
 // Now to completely finish click on the section labaled "Home Computer Use" and follow it as normal to complete the challenge.
 /////////////////////////////
 
 
 
-try { document.getElementById("Main").SetReturnValue(__flash__toXML(WEBStoreParameters("adversaryScores=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0#userScores=100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100#achievementsEarned=true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true#interactionsVisited=true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true#interactionsCompleted=true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true#tasksVisited=true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true#tasksCompleted=true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true")) ); } catch (e) { document.getElementById("Main").SetReturnValue("<undefined/>"); }
-
-location.href=location.href;
+try { document.getElementById("Main").SetReturnValue(__flash__toXML(WEBStoreParameters("adversaryScores=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0#userScores=100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100#achievementsEarned=true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true#interactionsVisited=true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true#interactionsCompleted=true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true#tasksVisited=true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true#tasksCompleted=true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true")) ); } catch (e) { document.getElementById("Main").SetReturnValue("<undefined/>"); };location.href=location.href;
