@@ -10,8 +10,7 @@
 
 <p><br /></p>
 
-<pre><code>
-test=scorm_api.parent.API_1484_11;
+<pre><code>test=scorm_api.parent.API_1484_11;
 
 test.dataModelInterface.root.containers.cmi.elements.scaled_passing_score.writeable=true;
 test.SetValue("cmi.scaled_passing_score", 0.8);
@@ -23,5 +22,4 @@ test.SetValue("adl.nav.request", "continue");
 
 test.Commit();
 test.FrameworkTerminate();
-test.completeUserSession(true);
-</code></pre>
+test.completeUserSession(true);</code></pre>
