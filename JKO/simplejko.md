@@ -10,4 +10,4 @@
 
 <p><br /></p>
 
-<code>API_1484_11.SetValue('cmi.completion_status','completed')</code>
+<code>API_1484_11.SetValue('cmi.completion_status','completed');if (document.getElementsByName("courseheader").item(0).contentDocument.getElementById("c")){document.getElementsByName("courseheader").item(0).contentDocument.getElementById("c").submit()};</code>
