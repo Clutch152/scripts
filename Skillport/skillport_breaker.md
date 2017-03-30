@@ -1,3 +1,4 @@
+<code>
 Progress.ResultsMgr.getInstance().setTopicVisitStatusAllTopics(Core.GenericConstants.COMPLETED)
 var h=Progress.ResultsMgr.getInstance().masterBucket.topicStatusItems.elements();
 var r=0;
@@ -12,3 +13,4 @@ while(h.hasMoreElements()){
 		r=0;
 	}
 }
+</code>
