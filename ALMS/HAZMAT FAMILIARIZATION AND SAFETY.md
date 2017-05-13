@@ -3,7 +3,7 @@ test.dataModelInterface.root.containers.cmi.elements.scaled_passing_score.writea
 
 r=0;
 while(r < 0.8 || r > 1){
-r=Math.floor((Math.random() * 100))/100;
+  r=Math.floor((Math.random() * 100))/100;
 }
 
 test.SetValue("cmi.scaled_passing_score", 0.8);
