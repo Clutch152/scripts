@@ -29,6 +29,7 @@
   test.LMSSetValue("cmi.success_status", "passed");
   test.LMSSetValue("cmi.score.raw", r*100);
   test.LMSSetValue("adl.nav.request", "continue");
-  top.close();}
+  top.close();
+ }
   </code>
   </pre>
