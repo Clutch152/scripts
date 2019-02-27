@@ -41,13 +41,12 @@ Click on the Console tab of the developer tools window.<br />
 Paste the following code in the text box at the bottom of the console tab.<br />
 Either manually click on the green Play arrow or hold CTRL and press ENTER.<br />
 <pre>
-  <code>
-  	score=0;
-	while(score < 80 || score > 100){
-		score=Math.floor(Math.random()*1000)
-	}
-	cwsObj.getCourseCompleted=function(){return true};
-	cwsObj.user.courseScore=score;
-	cwsObj.session.finished();
+  <code>score=0;
+while(score < 80 || score > 100){
+	score=Math.floor(Math.random()*1000)
+}
+cwsObj.getCourseCompleted=function(){return true};
+cwsObj.user.courseScore=score;
+cwsObj.session.finished();
   </code>
 </pre>
