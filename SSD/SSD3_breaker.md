@@ -7,7 +7,8 @@
 
 <p><br /></p>
 
-<pre><code>if (typeof(document.frames[1]) == "undefined") {
+<pre>
+<code>if (typeof(document.frames[1]) == "undefined") {
   SCOSetValue("cmi.completion_status", "complete");
   SCOSetValue("cmi.success_status", "passed");
   SCOSetValue("cmi.exit", "normal");
@@ -32,16 +33,13 @@
   top.close();
  }
   </code>
-  
-<ul>
-  <li>20190227 - For the actual Test</li>
-<li>Open your class in Internet Explorer.</li>
-<li>Press the F12 key when your test is fully loaded (it should say submit). This will open the developer tools.</li>
-<li>Click on the Console tab of the developer tools window.</li>
-<li>Paste the following code in the text box at the bottom of the console tab.</li>
-<li>Either manually click on the green Play arrow or hold CTRL and press ENTER.</li>
-</ul>
-
+</pre>
+<b>20190227 - For the actual Test</b>
+Open your class in Internet Explorer.
+Press the F12 key when your test is fully loaded (it should say submit). This will open the developer tools.
+Click on the Console tab of the developer tools window.
+Paste the following code in the text box at the bottom of the console tab.
+Either manually click on the green Play arrow or hold CTRL and press ENTER.
   <code>
   	score=0;
 	while(score < 80 || score > 100){
@@ -51,4 +49,4 @@
 	cwsObj.user.courseScore=score;
 	cwsObj.session.finished();
   </code>
-  </pre>
+
