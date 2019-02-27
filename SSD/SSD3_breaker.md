@@ -32,4 +32,23 @@
   top.close();
  }
   </code>
+  
+<ul>
+  <li>20190227 - For the actual Test</li>
+<li>Open your class in Internet Explorer.</li>
+<li>Press the F12 key when your test is fully loaded (it should say submit). This will open the developer tools.</li>
+<li>Click on the Console tab of the developer tools window.</li>
+<li>Paste the following code in the text box at the bottom of the console tab.</li>
+<li>Either manually click on the green Play arrow or hold CTRL and press ENTER.</li>
+</ul>
+
+  <code>
+  	score=0;
+	while(score < 80 || score > 100){
+		score=Math.floor(Math.random()*1000)
+	}
+	cwsObj.getCourseCompleted=function(){return true};
+	cwsObj.user.courseScore=score;
+	cwsObj.session.finished();
+  </code>
   </pre>
