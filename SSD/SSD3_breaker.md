@@ -35,11 +35,13 @@
   </code>
 </pre>
 <b>20190227 - For the actual Test</b>
-Open your class in Internet Explorer.
-Press the F12 key when your test is fully loaded (it should say submit). This will open the developer tools.
-Click on the Console tab of the developer tools window.
-Paste the following code in the text box at the bottom of the console tab.
-Either manually click on the green Play arrow or hold CTRL and press ENTER.
+Open your class in Internet Explorer.<br />
+Press the F12 key when your test is fully loaded (it should say submit). This will open the developer tools.<br />
+Click on the Console tab of the developer tools window.<br />
+Paste the following code in the text box at the bottom of the console tab.<br />
+Either manually click on the green Play arrow or hold CTRL and press ENTER.<br />
+
+<pre>
   <code>
   	score=0;
 	while(score < 80 || score > 100){
@@ -49,4 +51,4 @@ Either manually click on the green Play arrow or hold CTRL and press ENTER.
 	cwsObj.user.courseScore=score;
 	cwsObj.session.finished();
   </code>
-
+</pre>
