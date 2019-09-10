@@ -13,6 +13,11 @@ The scripts/codes included above all can be used with the Internet Explorer Deve
     <li>If the code is more than one line then you have to either manually click on the green Play arrow or hold CTRL and press ENTER.</li>   </ol>
   <li>At this point the results will vary for the code being used and follow up directions will be included as needed.</li>
 </ol>
-
+<br>
+<h2>*Notice*</h2>
+Scripts here are for the most part updated when I need them and not by request.
+SSDs can't be updated by me due to no longer having access to those classes.
+JKO script still works ... just don't use it on the tests.
+<br>
 
 Enjoy :D
