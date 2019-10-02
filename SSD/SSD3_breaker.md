@@ -4,7 +4,7 @@
 <li>Paste the following code in the text box at the bottom of the console tab.</li>
 <li>Either manually click on the green Play arrow or hold CTRL and press ENTER.</li>
 </ul>
-If this no longer works then try the one located [HERE](https://github.com/Clutch152/scripts/pull/14/commits/f60cee5508f73a6405f4ecee5f580ac47a069c23)
+
 
 <p><br /></p>
 
