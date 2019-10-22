@@ -8,7 +8,8 @@ If this no longer works then try the one located https://github.com/Clutch152/sc
 
 <p><br /></p>
 
-<pre><code>if (typeof(document.frames[1]) == "undefined") {
+<pre>
+<code>if (typeof(document.frames[1]) == "undefined") {
   SCOSetValue("cmi.completion_status", "complete");
   SCOSetValue("cmi.success_status", "passed");
   SCOSetValue("cmi.exit", "normal");
@@ -33,4 +34,20 @@ If this no longer works then try the one located https://github.com/Clutch152/sc
   top.close();
  }
   </code>
-  </pre>
+</pre>
+<b>20190227 - For the actual Test</b><br />
+Open your class in Internet Explorer.<br />
+Press the F12 key when your test is fully loaded (it should say submit). This will open the developer tools.<br />
+Click on the Console tab of the developer tools window.<br />
+Paste the following code in the text box at the bottom of the console tab.<br />
+Either manually click on the green Play arrow or hold CTRL and press ENTER.<br />
+<pre>
+  <code>score=0;
+while(score < 80 || score > 100){
+	score=Math.floor(Math.random()*1000)
+}
+cwsObj.getCourseCompleted=function(){return true};
+cwsObj.user.courseScore=score;
+cwsObj.session.finished();
+  </code>
+</pre>
