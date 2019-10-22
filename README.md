@@ -13,7 +13,7 @@ The scripts/codes included above all can be used with your browsers "Developer T
 As I will soon no longer have access to most military online education courses I would like to open this repo to contributors to keep the scripts alive and updated. Please feel free to fork this repo, make changes, and submit a pull request with your changes. Please make sure to add comments or remarks for reviewing. Comments/Remarks will be removed after merge to keep the amount copied and pasted to a minimum.
 
 This is NOT contracted by the military, therefore, nothing defined as actual hacking will be allowed. These are, but not limited too, the following and will be denied:
-  - SQL Injections (To include second hand)
+- SQL Injections (To include second hand)
 - Database manipulations
 - Attempting to retrieve another users information
 - Attempting to gain access other than your own
@@ -22,7 +22,7 @@ This is NOT contracted by the military, therefore, nothing defined as actual hac
 - Cookie stealing
 - etc...
 
-That said, you may use/submit javascript, HTML, and in some cases XML to attempt to bypass what is needed in order to gain course completion.
+That said, you may use/submit javascript to attempt to bypass what is needed in order to gain course completion.
 Some courses also check time elapsed, so keep that in mind.
 
 As always, these scripts are "use at own risk". I will NOT be held responsible if actions are taken against you. You have been disclaimed!
