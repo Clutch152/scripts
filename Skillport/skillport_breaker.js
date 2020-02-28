@@ -10,7 +10,7 @@ for (i=0;i<Core.context.course.lessons.length;i++) {
 
 var r=0;
 for (i = 0; i < TSIE.length; i++) {
-	while(r < 70 || r > 100){
+	while(r < 80 || r > 100){
 		r=Math.floor((Math.random() * 100));
 	}
 	var w=TSIE[i];	

@@ -1,4 +1,4 @@
-<pre><code>test=document.frames[1].frames[1].frames[1].parent.API_1484_11;
+test=document.frames[1].frames[1].frames[1].parent.API_1484_11;
 test.dataModelInterface.root.containers.cmi.elements.scaled_passing_score.writeable=true;
 
 r=0;
@@ -13,4 +13,4 @@ test.SetValue("cmi.success_status", "passed");
 test.SetValue("cmi.score.raw", r*100);
 test.SetValue("adl.nav.request", "continue");
 
-test.completeUserSession(true);</code></pre>
+test.completeUserSession(true);
