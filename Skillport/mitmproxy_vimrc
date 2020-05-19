@@ -1,0 +1,45 @@
+
+noremap <F5> :py3 replaceall()
+
+noremap <F2> :py3 replaceother()
+
+
+python3 << donedid
+import vim
+import random
+import time
+
+def replaceother():
+	tryloop('s/time%3D00/time%3D03/g')
+
+
+def replaceall():
+	tryloop('%s/Lesson_Status=Incomplete/Lesson_Status=Completed/g')
+	randomthing = str(random.randint(81,97))
+	tryloop('%s/Score=0/Score={}/g'.format(randomthing))
+	tryloop('%s/pc=\"\d\.\?\d\?\d\?\"/pc=\"100\"/g')
+	tryloop('%s/aa=\"\d\d\?\"/aa=\"{}\"/g'.format(randomthing))
+	tryloop('%s/sc=\"-\?\d\d\?;\d\?;-\?\d\?\"/sc=\"{};{};{}\"/g'.format(randomthing, randomthing, randomthing))
+	tryloop('%s/fl=\"\d\d\d\d\d\d\d\d\d\d\d\d\d/fl=\"{}'.format(str(int(str(time.time_ns())[:13]) - 5189425427)))	
+	tryloop('%s/st=\"\S\"/st=\"c\"/g')
+	tryloop('%s/sc=\"0\?;0\?;0\?\"/sc=\"{};{};{}\"/g'.format(randomthing, randomthing, randomthing))
+	tryloop('%s/ct=""/ct=\"{}\"/g'.format(randomthing))
+	tryloop('%s/=-1/={}/g'.format(randomthing))
+	tryloop('%s/=0/={}/g'.format(randomthing))
+	tryloop('%s/Time={}/Time=0/g'.format(randomthing))
+	tryloop('%s/error={}/error=0/g'.format(randomthing))
+	tryloop('%s/=i/=c/g')
+	tryloop('%s/=n/=c/g')
+	tryloop('%s/=ct/=it/g')
+
+
+def tryloop(cmdstring):
+	try:
+		vim.command(cmdstring)
+	except Exception as e:
+		print('go on')
+		return	
+	return
+
+donedid
+
