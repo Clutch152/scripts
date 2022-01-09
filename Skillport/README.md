@@ -4,24 +4,25 @@ Userscripts are taking the way in not only automating course completion, but in 
 
 ## Installation
 
-1. Install the [Tampermonkey](https://www.tampermonkey.net/) extension for Chrome/Edge or [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) extension for Firefox.
-2. Restart your browser.
+1. Install the [Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) extension for Chrome/Edge or [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) extension for Firefox
+2. Restart your browser
 2. Click on the "Raw" button of the `*.user.js` file in top the right of the code box. 
 3. Tampermonkey/Greasemonkey should pick up the fact that it's a `*.user.js` file and prompt you to install. Click "Install"
-4. The next time you close a sprint in planning, breathe a sigh of relief.
+4. The next time you close a sprint in planning, breathe a sigh of relief
 
 ## Usage
 
-Usage is based on each individual Userscript. Please read directions or discription in each one before using it.
+Usage is based on each individual Userscript. Please read directions or description in each one before using it.
 
 # MITM (_Man in the Middle_)
 MITM technique involves altering your POST headers. [GotEmCoach](https://github.com/GotEmCoach) has provided a technique that is based off of linux. 
 
 ## Installation
 
-Run a linux shell with and paste the following:
+Run a linux shell with `sudo` privileges and paste the following:
 
 ```
+sudo apt install git
 mkdir mitm_docs
 cd mitm
 wget https://raw.githubusercontent.com/Clutch152/scripts/master/Skillport/mitmproxy_instructions.md
