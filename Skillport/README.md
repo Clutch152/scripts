@@ -1,15 +1,35 @@
-<h1>Instructions</h1>
+# _*.user.js_ Scripts
 
-<h2>THIS ONLY WORKS ON A FEW CLASSES!!!</h2>
+Userscripts are taking the way in not only automating course completion, but in making it more user friendly to handle and update scripts.
 
-<ol>
-  <li>Follow the previous instructions</li>
-  <li>In the class, click "Exit" to close the class</li>
-    <ol>
-    <li>At this point it will NOT show as complete yet</li>
-  </ol>
-  <li>REOPEN the same class and then click "Exit" again to close the class.</li>
-  <ol>
-    <li>The class will now show as completed!!!</li>
-  </ol>
-</ol>
+## Installation
+
+1. Install the [Tampermonkey](https://www.tampermonkey.net/) extension for Chrome/Edge or [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) extension for Firefox.
+2. Restart your browser.
+2. Click on the "Raw" button of the `*.user.js` file in top the right of the code box. 
+3. Tampermonkey/Greasemonkey should pick up the fact that it's a `*.user.js` file and prompt you to install. Click "Install"
+4. The next time you close a sprint in planning, breathe a sigh of relief.
+
+## Usage
+
+Usage is based on each individual Userscript. Please read directions or discription in each one before using it.
+
+# MITM (_Man in the Middle_)
+MITM technique involves altering your POST headers. [GotEmCoach](https://github.com/GotEmCoach) has provided a technique that is based off of linux. 
+
+## Installation
+
+Run a linux shell with and paste the following:
+
+```
+mkdir mitm_docs
+cd mitm
+wget https://raw.githubusercontent.com/Clutch152/scripts/master/Skillport/mitmproxy_instructions.md
+wget https://raw.githubusercontent.com/Clutch152/scripts/master/Skillport/mitmproxy_vimrc
+cp ./mitmproxy_vimrc ~/.vimrc
+vim mitmproxy_instructions.md
+```
+
+## Usage
+
+After installation you can follow along with the onscreen instructions. Moving of the vimrc is already done. 
