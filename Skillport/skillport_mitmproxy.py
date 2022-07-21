@@ -42,7 +42,7 @@ def response(flow: http.HTTPFlow) -> None:
                             j_items[1] = str(random.randint(81, 100))
                         new_jscore = "=".join(j_items)
                         new_params = new_params.replace(j_score, new_jscore)
-                    new_params = re.sub(TIME, f"Time=0{random.randint(0,4)}:{random.randint(0,5)}{random.randint(0,9)}:{random.randint(0,5)}{random.randint(0,9)}", new_params)
+                    new_params = re.sub(TIME, f"Time=0{random.randint(1,4)}:{random.randint(0,5)}{random.randint(0,9)}:{random.randint(0,5)}{random.randint(0,9)}", new_params)
                     new_params = re.sub(SCORE, f"Score={random.randint(81,100)}", new_params)
                     new_params = new_params.replace("Incomplete", "Completed")
                     new_params = re.sub(TAB_SCORE, change_tab_score(), new_params)
