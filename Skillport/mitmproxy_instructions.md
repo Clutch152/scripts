@@ -17,7 +17,7 @@ Setup:
 Running script
     
     Step 1: You will now run the following:
-        `python3 mitmproxy -s skillport_mitmproxy.py
+        `python3 mitmproxy -s skillport_mitmproxy.py`
 
     Step 2: Click all the lessons and close window. You won't see the changes but they are occuring via the intercepted and edited packets. Reopen lesson immediately
 
