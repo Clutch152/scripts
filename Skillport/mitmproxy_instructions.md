@@ -1,4 +1,36 @@
-Due to not knowing much javascript, I decided to analyze what the packets look like coming and going from my machine. I found mitmproxy was an easy way to do that, once I figured out what I need to change when my hosts sends a request to the server for its current progress using the 'getparam' in a POST message, I will look at the response coming back from the server, I intercept it's values going to my browser and simply using my vimrc mappings to quickly search and replace some values using mitmproxy's ability to edit content via vim. 
+NEW METHOD
+
+    Linux no longer a necessity
+
+What you need:
+    python3 installed
+    mitmproxy installed
+
+Setup:
+    Installing mitmproxy and Python3.6+ is a necessity to run this script. You must follow instructions at https://docs.mitmproxy.org/stable/concepts-certificates/
+
+    You will likely need to run mitmproxy to install these:
+        in command line run `python3 mitmproxy`
+
+    Depending on what os you are using you will need to google how to set up a proxy on your desktop or through your browser. 
+
+Running script
+    
+    Step 1: You will now run the following:
+        `python3 mitmproxy -s skillport_mitmproxy.py`
+
+    Step 2: Click all the lessons and close window. You won't see the changes but they are occuring via the intercepted and edited packets. Reopen lesson immediately
+
+    Step 3: Profit!
+
+    Viewing your completion status you should be good to go, scores are randomized between 81 and 100, time is randomized between an hour and 5 hours. 
+
+
+
+
+
+
+OLD METHOD
 
 
 What You Need:
