@@ -9,6 +9,9 @@ TAB_NOT_SCORED = re.compile(r'sc[=]["][;][;]"')
 SCORE = re.compile(r'\bScore[=]\d\d')
 TIME = re.compile(r'\bTime[=]\d\d[:]\d\d[:]\d\d\b')
 J_SCORE = re.compile(r'j_score[.]\d\d?[=]\d?\d?[.]?\d?\d?')
+EPOCH_TIME = re.compile(r'fl[=]["](\d{13})')
+TIME_L = re.compile(r'\btime[=]\d\d[:]\d\d[:]\d\d\b')
+
 
 def change_tab_score():
     score_val = f'{random.randint(81, 100)}'
@@ -22,7 +25,12 @@ def request(flow: http.HTTPFlow) -> None:
                 if flow.request.urlencoded_form["command"] == "putparam":
                     current_params = flow.request.urlencoded_form["aicc_data"]
                     new_params = current_params.replace('st="i"', 'st="c"')
-                    flow.request.urlencoded_form["aicc_data"] = new_params    
+                    current_epoch = re.findall(EPOCH_TIME, new_params)
+                    print(current_epoch)
+                    new_epoch = str(int(current_epoch[0])-3000)
+                    new_params = new_params.replace(f'fl="{current_epoch}', f'fl="{new_epoch}')
+                    new_params = re.sub(TIME_L, f"time=0{random.randint(1,4)}:{random.randint(0,5)}{random.randint(0,9)}:{random.randint(0,5)}{random.randint(0,9)}", new_params)
+                    flow.request.urlencoded_form["aicc_data"] = new_params
             except Exception as err:
                 print(repr(err))
 
@@ -46,6 +54,10 @@ def response(flow: http.HTTPFlow) -> None:
                     new_params = re.sub(SCORE, f"Score={random.randint(81,100)}", new_params)
                     new_params = new_params.replace("Incomplete", "Completed")
                     new_params = re.sub(TAB_SCORE, change_tab_score(), new_params)
+                    current_epoch = re.findall(EPOCH_TIME, new_params)
+                    print(current_epoch)
+                    new_epoch = str(int(current_epoch[0])-2000)
+                    new_params = re.sub(f'at="{current_epoch}"', f'at="{new_epoch}"', new_params)
                     flow.response.text = new_params
             except Exception as err:
                 print(repr(err))       
