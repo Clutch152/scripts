@@ -26,7 +26,7 @@ Despite efforts to reduce redundant online training within the DoD, many time-co
     1. We can open it up from going into the sources tab and then doing a ctrl+f or looking into the pageContentFrame tree.
     2. There is a whole set of options available which we can invoke from the console tab.
     3. But first you may ask, how do I issue these commands? What is the structure? 
-        - As this higher level overview, the objective isn't to make you wizards out of the gate but to help the largest population set be interested and motivated to ask the "why!"
+        - As this is a higher level overview, the objective isn't to make you wizards but to help the largest population be interested and motivated to ask the "why!"
     4. Take a look at how the program initiates itself! 
     ```javascript
     !function(root, factory) {
