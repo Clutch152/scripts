@@ -1,31 +1,33 @@
 # Collection of scripts for the lazy ... >.>
 
 The scripts/codes included above all can be used with your browsers "Developer Tools". To use the developer tools follow these steps:
-1. Open your class in Internet Explorer.
-2. Press the F12 key when your class is fully loaded. This will open the developer tools.
-3. Click on the "Console" tab of the developer tools window.
-4. Paste the code in the text box at the bottom of the console tab.
-   1. If the code is one line then you can simply press the ENTER key.
-   2. If the code is more than one line then you have to either manually click on the green Play arrow or hold CTRL and press ENTER.
-5. At this point the results will vary for the code being used and follow up directions will be included as needed.
+1. Open your course in Internet Explorer.
+2. Once your course is fully loaded, press the F12 key to open the Developer Tools.
+3. Navigate to the "Console" tab within the Developer Tools window.
+4. Paste the script into the input field at the bottom of the Console tab.
+   1. For single-line scripts, simply press the ENTER key.
+   2. For multi-line scripts, either manually click the green Play arrow or press CTRL + ENTER.
+5. Please note that the outcomes will vary depending on the script used. Follow-up instructions will be provided as necessary.
 
 ## *Calling All Scripters!!!*
-As I will soon no longer have access to most military online education courses I would like to open this repo to contributors to keep the scripts alive and updated. Please feel free to fork this repo, make changes, and submit a pull request with your changes. Please make sure to add comments or remarks for reviewing. Comments/Remarks will be removed after merge to keep the amount copied and pasted to a minimum.
+As I will soon lose access to most military online education courses, I invite contributors to help maintain and update this repository. You are welcome to fork this repository, make improvements, and submit a pull request. Please ensure that your submissions include comments or remarks for review purposes. These will be removed after merging to keep the repository streamlined.
 
-This is NOT contracted by the military, therefore, nothing defined as actual hacking will be allowed. These are, but not limited too, the following and will be denied:
-- SQL Injections (To include second hand)
+This repository is not affiliated with or contracted by the military. Therefore, it is crucial to adhere to ethical and legal standards. The following activities, among others (but not limited), are strictly prohibited and will result in the denial of any related submissions:
+
+- SQL Injections (including indirect attempts)
 - Database manipulations
-- Attempting to retrieve another users information
-- Attempting to gain access other than your own
+- Unauthorized access to other users' information
+- Unauthorized system access
 - Buffer overflow exploits
-- Session Hijacking
+- Session hijacking
 - Cookie stealing
 - etc...
 
-That said, you may use/submit javascript to attempt to bypass what is needed in order to gain course completion.
-Some courses also check time elapsed, so keep that in mind.
+## Permissible Activities:
+You may use or submit JavaScript that assists in navigating course requirements, provided it does not violate any laws or terms of service. Be aware that some courses may track time elapsed, which could impact the effectiveness of certain scripts.
 
-As always, these scripts are "use at own risk". I will NOT be held responsible if actions are taken against you. You have been disclaimed!
+## Disclaimer
+These scripts are provided "as is." I nor contributors will not be held responsible for any actions taken against you as a result of using these scripts. You have been duly warned.
 
 
-Enjoy :D
+Enjoy responsibly!
