@@ -1,3 +1,5 @@
+# This branch may contain more advanced methods and have not, and can not be tested by me, therefore ... again, USE AT OWN RISK
+
 # Collection of scripts for the lazy ... >.>
 
 The scripts/codes included above all can be used with your browsers "Developer Tools". To use the developer tools follow these steps:
@@ -30,4 +32,3 @@ You may use or submit JavaScript that assists in navigating course requirements,
 These scripts are provided "as is." I nor contributors will not be held responsible for any actions taken against you as a result of using these scripts. You have been duly warned.
 
 
-Enjoy responsibly!
