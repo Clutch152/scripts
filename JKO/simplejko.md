@@ -15,7 +15,7 @@ Right click, inspect element, select console tab, paste the following code:
             attempts++;
         }
         return win.API_1484_11;
-    }\
+    }
     function getAPI() {
         var API = findAPI(window);
         if (!API && window.opener) {
