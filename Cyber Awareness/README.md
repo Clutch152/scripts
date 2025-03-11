@@ -1,3 +1,20 @@
+## 2024 Cyber Awareness Challenge
+
+1: Open the 2024 Cyber Awareness Challenge to any point.
+
+2: Open your developer tools. This is F12 in most browsers.
+
+3: Open the Console tab of your developer tools.
+
+4: Enter: `location.href="https://cs.signal.army.mil/usermngmt/CyberAwareness_2024/pages/disacac18_02_army.html"` into the console.
+
+5: Run the command.
+
+6: Click the Verify Training button.
+
+7: Complete.
+
+
 <h1>Instructions for the Old Challenge</h1>
 
 <ul>
